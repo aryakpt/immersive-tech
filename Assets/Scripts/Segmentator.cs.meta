@@ -3,7 +3,11 @@ guid: cb04ba54041edd24dae5d6eee63287b1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ModelFile: {fileID: 5022602860645237092, guid: db22864052be547078dbef99948321c7, type: 3}
+  - ImageUI: {instanceID: 0}
+  - personCubePrefab: {instanceID: 0}
+  - canvas: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

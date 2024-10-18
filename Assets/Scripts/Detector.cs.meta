@@ -3,7 +3,12 @@ guid: 339c4b6bb28288140952235c57b0905b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ModelFile: {fileID: 5022602860645237092, guid: db22864052be547078dbef99948321c7, type: 3}
+  - ImageUI: {instanceID: 0}
+  - personCubePrefab: {instanceID: 0}
+  - HatPrefab: {fileID: 2200012749275672110, guid: d025dbcf886a44da68fd3c054c3258aa, type: 3}
+  - canvas: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
