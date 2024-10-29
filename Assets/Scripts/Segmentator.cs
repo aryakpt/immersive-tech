@@ -31,18 +31,18 @@ namespace Assets.Scripts
 
         void OnDisable()
         {
-            nn.Dispose(); 
+            nn.Dispose();
             textureProvider.Stop();
         }
 
-        protected override void DrawBox(ResultBox box, Texture2D img)
-        {
-            base.DrawBox(box, img);
+        // protected override void DrawBox(ResultBox box, Texture2D img)
+        // {
+        //     base.DrawBox(box, img);
 
-            ResultBoxWithMask boxWithMask = box as ResultBoxWithMask;
-            Color boxColor = colorArray[box.bestClassIndex % colorArray.Length];
-            TextureTools.RenderMaskOnTexture(boxWithMask.masks, img, boxColor);
-            boxWithMask.masks.tensorOnDevice.Dispose();
-        }
+        //     ResultBoxWithMask boxWithMask = box as ResultBoxWithMask;
+        //     Color boxColor = colorArray[box.bestClassIndex % colorArray.Length];
+        //     TextureTools.RenderMaskOnTexture(boxWithMask.masks, img, boxColor);
+        //     boxWithMask.masks.tensorOnDevice.Dispose();
+        // }
     }
 }
